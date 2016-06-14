@@ -1,11 +1,33 @@
-apertium-cy-en (0.1.1~r57554-1) trusty; urgency=low
+apertium-cy-en (0.1.1~r57554-3+wmf1) jessie-wikimedia; urgency=low
+
+  * Rebuild for Jessie.
+
+ -- Kartik Mistry <kartik@debian.org>  Tue, 14 Jun 2016 12:36:23 +0530
+
+apertium-cy-en (0.1.1~r57554-3) unstable; urgency=low
+
+  * debian/control:
+    + Updated Standards-Version to 3.9.8
+    + Fixed Depends. locales no longer needed.
+    + Updated Vcs-* URLs.
+  * debian/rules:
+    + Simplified rules for locales.
+
+ -- Kartik Mistry <kartik@debian.org>  Tue, 14 Jun 2016 11:58:40 +0530
+
+apertium-cy-en (0.1.1~r57554-2) unstable; urgency=low
+
+  * Upload to unstable.
+  * debian/docs:
+    + Added ACKNOWLEDGEMENTS.
+    + Removed duplicate changelog file NEWS.
+
+ -- Kartik Mistry <kartik@debian.org>  Sun, 09 Aug 2015 23:45:27 +0530
+
+apertium-cy-en (0.1.1~r57554-1) experimental; urgency=low
 
   [ Tino Didriksen ]
-  * Initial release
-  * No significant changes in svn since tarball, so taking directly from svn
+  * Initial release. (Closes: #493260)
+  * No significant changes in svn since tarball, so taking directly from svn.
 
-  [ Kartik Mistry ]
-  * Rebuilt for Trusty.
-  * Fixed dependencies.
-
- -- Kartik Mistry <kartik@debian.org>  Thu, 11 Jun 2015 19:53:10 +0530
+ -- Kartik Mistry <kartik@debian.org>  Mon, 03 Aug 2015 09:59:34 +0530
