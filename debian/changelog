@@ -1,3 +1,9 @@
+apertium-cy-en (0.1.1~r57554-3+wmf2) jessie-wikimedia; urgency=low
+
+  * Depends on cg3 (>= 1.0.0~r12254)
+
+ -- Kartik Mistry <kartik@debian.org>  Mon, 11 Dec 2017 11:06:59 +0530
+
 apertium-cy-en (0.1.1~r57554-3+wmf1) jessie-wikimedia; urgency=low
 
   * Rebuild for Jessie.
